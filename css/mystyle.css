@@ -156,6 +156,9 @@ footer a:hover {
 .main-content-about {
     position: relative;
     font-family: 'Roboto Condensed';
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1px;
 }
 
 .main-content-about h1 {
