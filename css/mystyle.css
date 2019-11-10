@@ -204,7 +204,7 @@ footer a:hover {
 }
 
 .flip-card-back {
-  background-color: orange;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
 }
