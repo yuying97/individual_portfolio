@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto%20Condensed' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/663be76d70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Yuying Li | Contact Me</title>
+</head>
+<body>
+
+
+<header>
+    <nav id="nav">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">About</a></li> 
+            <li><a href = "travel.html">Travel</a></li>  
+            <li><a class= "current-page" href = "contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+     <div class="main-content main-container">
+        <!-- left side -->
+        <div class="icon-container">
+            <div class="contact-heading">
+                <h1>Let's Connect!</h1>
+                <a href="#contact">Click here to directly send to your contact form</a>
+            </div>
+            <div class="mail-icon icon">
+                <a href="mailto:yuyingli@umich.edu" target="_blank">
+                    <div class="fa-stack fa-2x"><i class="fas fa-circle fa-stack-2x"></i><i
+                            class="fas fa-envelope fa-stack-1x fa-inverse"></i></div>
+                    <p>yuyingli@umich.edu</p>
+                </a>
+            </div>
+            <div class="linkedin-icon icon">
+                <a href="https://www.linkedin.com/in/yuying-li-718089178/" target="_blank">
+                    <span class="fa-stack fa-2x fa-tw"><i class="fas fa-circle fa-stack-2x"></i><i
+                            class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i></span>
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+            <div class="fb-icon icon">
+                <a href="https://www.facebook.com/yuying.li.378" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fas fa-circle fa-stack-2x"></i><i
+                            class="fab fa-facebook-square fa-stack-1x fa-inverse"></i></span>
+                    <p>Yuying Li</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contactform-container">
+        <form id="contact" method="POST">
+            <fieldset>
+                <legend><h1>Contact me</h1></legend>
+                <h2>Contact Form</h2>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Your email.." id="email" class="email">
+
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" value="Send"
+                                    class="submit submi">Submit</button>
+            </fieldset>
+
+      </form>
+
+    </div>
+
+</main>
+
+<footer>
+    <p> Yuying Li | yuyingli@umich.edu </p>
+</footer>
+
+</body>
+</html>
