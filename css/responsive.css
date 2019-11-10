@@ -2,21 +2,6 @@
   html{
       scroll-behavior: auto;
   }
-
-  .skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: none;
-    transition: none;
-    z-index: 1;
-  }
-
-  .skip a:focus{
-    top:0px;
-  }
 }
 
 /* For screen width between 680px and 1024px */
@@ -40,6 +25,12 @@
 
     nav ul li a {
         padding: 1em;
+    }
+  
+    .main-content-about {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1px;
     }
 }
 
