@@ -4,7 +4,6 @@
 
 /* HTML5 display-role reset for older browsers */
 article,
-aside,
 details,
 figcaption,
 figure,
@@ -150,7 +149,7 @@ footer p {
     font-size: 2em;
 }
 
-aside img {
+.aside-profile img {
     border-radius: 50%;
     width: 50%;
     height: auto;
